@@ -1,0 +1,32 @@
+{
+    "name": "teamone/crypt",
+    "description": "Teamone Crypt",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "files": [
+        ],
+        "psr-4": {
+            "Teamone\\Crypt\\": "src/",
+            "Teamone\\CryptTest\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "shijie.zhu",
+            "email": "jukit.lucky@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "symfony/var-dumper": "^6.4",
+        "phpunit/phpunit": "^10.5"
+    },
+    "scripts": {
+        "phpunit": "phpunit"
+    },
+    "require": {
+        "ext-openssl": "*",
+        "paragonie/constant_time_encoding": "^2.6"
+    }
+}
